@@ -1,4 +1,3 @@
-## Dependencies
 # PDF classifier with Python
 
 ## Table of Contents
@@ -8,7 +7,7 @@
 + [References](#references)
 
 ## About <a name = "about"></a>
-This is a simple Python program for classifying PDF files according to their content. Texts are extracted from pdf files with PyPDF2 library and checked with given prompts and if they are a match, the Pdf files are moved to destination folders using move method from shutil module.
+This is a simple Python program for classifying PDF files according to their content. Texts are extracted from pdf files with PyPDF2 library, checked with given keywords and if they are a match the Pdf files are moved to destination folders using move method from shutil module.
 
 ## Dependencies <a name = "dependencies"></a>
 * PyPDF2 (https://github.com/py-pdf/PyPDF2)  
